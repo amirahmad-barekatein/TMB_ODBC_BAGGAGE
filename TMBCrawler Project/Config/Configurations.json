@@ -1,0 +1,13 @@
+{
+    "DBConnection" : "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\Amirahmad Barekatin\\Snappfood Project\\TMB - App\\TMBCrawler Project\\Config\\AirportBaggage.accdb;Persist Security Info=False;",
+    "UrlDetails": 
+    {
+        "Name" : "baggage",
+        "UrlDetail":{
+                "BaseUrl": "http://109.230.73.115:30080/baggage/json",
+                "Token": "token=094936d6ebc4fec0875ad152910cb103"
+              }
+    },
+    "Delay": 2000
+
+}

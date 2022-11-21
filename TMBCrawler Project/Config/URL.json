@@ -1,0 +1,8 @@
+
+{
+    "Name" : "baggage",
+    "UrlDetail":{
+            "BaseUrl": "http://109.230.73.115:30080/baggage/json",
+            "Token": "token=094936d6ebc4fec0875ad152910cb103"
+          }
+}
