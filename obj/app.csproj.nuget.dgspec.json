@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amirahmad Barekatin\\Snappfood Project\\TMB - App\\app.csproj": {}
+    "C:\\Users\\Amirahmad Barekatin\\VS Projects\\TMB - App - ODBC\\app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amirahmad Barekatin\\Snappfood Project\\TMB - App\\app.csproj": {
+    "C:\\Users\\Amirahmad Barekatin\\VS Projects\\TMB - App - ODBC\\app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amirahmad Barekatin\\Snappfood Project\\TMB - App\\app.csproj",
+        "projectUniqueName": "C:\\Users\\Amirahmad Barekatin\\VS Projects\\TMB - App - ODBC\\app.csproj",
         "projectName": "app",
-        "projectPath": "C:\\Users\\Amirahmad Barekatin\\Snappfood Project\\TMB - App\\app.csproj",
+        "projectPath": "C:\\Users\\Amirahmad Barekatin\\VS Projects\\TMB - App - ODBC\\app.csproj",
         "packagesPath": "C:\\Users\\Amirahmad Barekatin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amirahmad Barekatin\\Snappfood Project\\TMB - App\\obj\\",
+        "outputPath": "C:\\Users\\Amirahmad Barekatin\\VS Projects\\TMB - App - ODBC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amirahmad Barekatin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -45,6 +45,10 @@
               "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.Odbc": {
               "target": "Package",
               "version": "[7.0.0, )"
             },

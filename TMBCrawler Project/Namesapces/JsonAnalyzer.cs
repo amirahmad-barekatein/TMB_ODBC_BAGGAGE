@@ -43,14 +43,14 @@ namespace JsonAnalyzer
         public string group { get; set; }
     }
 
-    // public class Root
-    // {
-    //      public Dictionary<string, object> { get; set; }
-    // }
-
     public class Total
     {
-        public object weight { get; set; }
-        public object quantity { get; set; }
+        public string weight { get; set; }
+        public string quantity { get; set; }
     }
+
+    // public class FlightModel
+    // {
+    //     public string 
+    // }
 }

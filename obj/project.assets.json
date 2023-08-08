@@ -543,6 +543,43 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Data.Odbc/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Data.Odbc.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Data.Odbc.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/freebsd/lib/net6.0/System.Data.Odbc.dll": {
+            "assetType": "runtime",
+            "rid": "freebsd"
+          },
+          "runtimes/linux/lib/net6.0/System.Data.Odbc.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/osx/lib/net6.0/System.Data.Odbc.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/win/lib/net6.0/System.Data.Odbc.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "System.Data.OleDb/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -683,6 +720,31 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Text.Encodings.Web/7.0.0": {
@@ -1391,6 +1453,57 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Data.Odbc/7.0.0": {
+      "sha512": "siwu7NoCsfHa9bfw2a2wSeTt2c/rhk3X8I28nJln1dlxdW3KqhRp0aW87yH1XkCo9h8zO1qcIfdTHO7YvvWLEA==",
+      "type": "package",
+      "path": "system.data.odbc/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Data.Odbc.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Data.Odbc.targets",
+        "lib/net462/System.Data.Odbc.dll",
+        "lib/net462/System.Data.Odbc.xml",
+        "lib/net6.0/System.Data.Odbc.dll",
+        "lib/net6.0/System.Data.Odbc.xml",
+        "lib/net7.0/System.Data.Odbc.dll",
+        "lib/net7.0/System.Data.Odbc.xml",
+        "lib/netstandard2.0/System.Data.Odbc.dll",
+        "lib/netstandard2.0/System.Data.Odbc.xml",
+        "runtimes/freebsd/lib/net6.0/System.Data.Odbc.dll",
+        "runtimes/freebsd/lib/net6.0/System.Data.Odbc.xml",
+        "runtimes/freebsd/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/freebsd/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/illumos/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/illumos/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/ios/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/ios/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/linux/lib/net6.0/System.Data.Odbc.dll",
+        "runtimes/linux/lib/net6.0/System.Data.Odbc.xml",
+        "runtimes/linux/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/linux/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/osx/lib/net6.0/System.Data.Odbc.dll",
+        "runtimes/osx/lib/net6.0/System.Data.Odbc.xml",
+        "runtimes/osx/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/osx/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/solaris/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/solaris/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/tvos/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/tvos/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/win/lib/net6.0/System.Data.Odbc.dll",
+        "runtimes/win/lib/net6.0/System.Data.Odbc.xml",
+        "runtimes/win/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/win/lib/net7.0/System.Data.Odbc.xml",
+        "system.data.odbc.7.0.0.nupkg.sha512",
+        "system.data.odbc.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Data.OleDb/7.0.0": {
       "sha512": "bhAs+5X5acgg3zQ6N4HqxqfwwmqWJzgt54BC8iwygcqa2jktxDFzxwN83GNvqgoTcTs2tenDS/jmhC+AQsmcyg==",
       "type": "package",
@@ -1600,6 +1713,43 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Text.Encoding.CodePages/7.0.0": {
+      "sha512": "LSyCblMpvOe0N3E+8e0skHcrIhgV2huaNcjUUEa8hRtgEAm36aGkRoC8Jxlb6Ra6GSfF29ftduPNywin8XolzQ==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Text.Encoding.CodePages.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Text.Encoding.CodePages.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Text.Encoding.CodePages.dll",
+        "lib/net462/System.Text.Encoding.CodePages.xml",
+        "lib/net6.0/System.Text.Encoding.CodePages.dll",
+        "lib/net6.0/System.Text.Encoding.CodePages.xml",
+        "lib/net7.0/System.Text.Encoding.CodePages.dll",
+        "lib/net7.0/System.Text.Encoding.CodePages.xml",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/net7.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net7.0/System.Text.Encoding.CodePages.xml",
+        "system.text.encoding.codepages.7.0.0.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Text.Encodings.Web/7.0.0": {
       "sha512": "OP6umVGxc0Z0MvZQBVigj4/U31Pw72ITihDWP9WiWDm+q5aoe0GaJivsfYGq53o6dxH7DcXWiCTl7+0o2CGdmg==",
       "type": "package",
@@ -1730,6 +1880,7 @@
     "net6.0": [
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.0",
+      "System.Data.Odbc >= 7.0.0",
       "System.Data.OleDb >= 7.0.0"
     ]
   },
@@ -1739,11 +1890,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Amirahmad Barekatin\\Snappfood Project\\TMB - App\\app.csproj",
+      "projectUniqueName": "c:\\Users\\Amirahmad Barekatin\\VS Projects\\TMB - App - ODBC\\app.csproj",
       "projectName": "app",
-      "projectPath": "c:\\Users\\Amirahmad Barekatin\\Snappfood Project\\TMB - App\\app.csproj",
+      "projectPath": "c:\\Users\\Amirahmad Barekatin\\VS Projects\\TMB - App - ODBC\\app.csproj",
       "packagesPath": "C:\\Users\\Amirahmad Barekatin\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Amirahmad Barekatin\\Snappfood Project\\TMB - App\\obj\\",
+      "outputPath": "c:\\Users\\Amirahmad Barekatin\\VS Projects\\TMB - App - ODBC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amirahmad Barekatin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1777,6 +1928,10 @@
             "version": "[7.0.0, )"
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "System.Data.Odbc": {
             "target": "Package",
             "version": "[7.0.0, )"
           },
